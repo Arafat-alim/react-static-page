@@ -6,10 +6,6 @@ export default function Navbar(props) {
     <nav className={props.mode ? "" : "dark"}>
       <img src={logo} alt="react-logo" className="nav--icon" />
       <h3 className="nav--title_text">React Facts</h3>
-      {/* <h4 className="nav--title">React Course - Project 1</h4> */}
-      {/* <button onClick={props.handleToggle}>
-        {props.mode ? "Dark Mode" : "Light Mode"}
-      </button> */}
       <div className="toggler">
         <p className="toggler--light">Light</p>
         <div className="toggler--slider" onClick={props.handleToggle}>
